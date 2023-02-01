@@ -1,0 +1,67 @@
+body{
+    font-family: 'Merriweather', serif;
+    background: #f2709c;
+    background: -webkit-linear-gradient(to right, #ff9472,#f2709c);
+    background: linear-gradient(to right, #ff9472,#f2709c);
+    
+}
+
+.gemacht{
+    color: gray;
+    text-decoration: line-through;
+}
+
+#container{
+    margin: 80px auto;
+    width: 800px;
+    border: 5px solid white;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+h1{
+    background-color: maroon;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    background-color: orangered;
+    height: 50px;
+    line-height: 50px;
+}
+li:nth-child(2n){
+    background-color: orange;
+}
+li span{
+    height: 50px;
+    width:30px;
+    background-color: maroon;
+    display: inline-block;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+li:hover span{
+    opacity: 1;
+    width: 40px;
+    color: white;
+    cursor: pointer;
+}
+input{
+    width: 97%;
+    height: 30px;
+    padding: 10px 10px 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 24px;
+}
